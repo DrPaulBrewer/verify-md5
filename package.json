@@ -1,0 +1,25 @@
+{
+  "name": "verify-md5",
+  "version": "0.1.0",
+  "description": "Command line client to manage md5 verification of files in local directories and Google Cloud Storage [tm] buckets",
+  "bin": "bin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpaulbrewer/verify-md5.git"
+  },
+  "keywords": [
+    "md5"
+  ],
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drpaulbrewer/verify-md5/issues"
+  },
+  "homepage": "https://github.com/drpaulbrewer/verify-md5#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^1.0.0",
+    "commander": "^2.9.0",
+    "verify-bucket-md5": "^0.2.0",
+    "verify-fsdir-md5": "^0.1.3"
+  }
+}
