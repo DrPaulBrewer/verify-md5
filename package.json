@@ -1,6 +1,6 @@
 {
   "name": "verify-md5",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Command line client to manage md5 verification of files in local directories and Google Cloud Storage [tm] buckets",
   "bin": "bin.js",
   "repository": {
