@@ -1,0 +1,72 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - '@google-cloud/storage > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > retry-request > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > extend':
+        patched: '2022-10-03T15:35:37.338Z'
+  SNYK-JS-LODASH-567746:
+    - '@google-cloud/storage > async > lodash':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > split-array-stream > async > lodash':
+        patched: '2022-10-03T15:35:37.338Z'
+  'npm:stringstream:20180511':
+    - '@google-cloud/storage > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > retry-request > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > stringstream':
+        patched: '2022-10-03T15:35:37.338Z'
