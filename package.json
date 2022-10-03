@@ -20,6 +20,12 @@
     "@google-cloud/storage": "^1.6.0",
     "commander": "^2.14.1",
     "verify-bucket-md5": "^0.4.0",
-    "verify-fsdir-md5": "^0.2.1"
-  }
+    "verify-fsdir-md5": "^0.2.1",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
